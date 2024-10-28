@@ -1,13 +1,3 @@
-CREATE TABLE IF NOT EXISTS customers
-(
-    id      BIGINT      NOT NULL GENERATED ALWAYS AS IDENTITY,
-    name    VARCHAR(45) NOT NULL,
-    email   VARCHAR(45) NOT NULL,
-    phone   VARCHAR(45) NOT NULL,
-    address VARCHAR(45) NOT NULL,
-    PRIMARY KEY (id)
-);
-
 CREATE TABLE IF NOT EXISTS airlines
 (
     id              BIGINT      NOT NULL GENERATED ALWAYS AS IDENTITY,
